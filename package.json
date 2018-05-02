@@ -1,0 +1,27 @@
+{
+  "name": "typescript-maybe",
+  "version": "0.1.0",
+  "description": "A TypeScript Maybe Type and Module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kylecorbelli/typescript-maybe.git"
+  },
+  "keywords": [
+    "typescript",
+    "maybe",
+    "monad",
+    "elm",
+    "purescript",
+    "haskell"
+  ],
+  "author": "Kyle Corbelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylecorbelli/typescript-maybe/issues"
+  },
+  "homepage": "https://github.com/kylecorbelli/typescript-maybe#readme"
+}
