@@ -2,7 +2,7 @@
   "name": "typescript-maybe",
   "version": "0.1.0",
   "description": "A TypeScript Maybe Type and Module",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
