@@ -4,7 +4,9 @@
   "description": "A TypeScript Maybe Type and Module",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "tsc-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,29 @@
   "bugs": {
     "url": "https://github.com/kylecorbelli/typescript-maybe/issues"
   },
-  "homepage": "https://github.com/kylecorbelli/typescript-maybe#readme"
+  "homepage": "https://github.com/kylecorbelli/typescript-maybe#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/ramda": "^0.25.24",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "typescript": "^2.8.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
 }
