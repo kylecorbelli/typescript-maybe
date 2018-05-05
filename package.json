@@ -1,6 +1,6 @@
 {
   "name": "typescript-maybe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A TypeScript Maybe Type and Module",
   "main": "src/index.ts",
   "scripts": {
